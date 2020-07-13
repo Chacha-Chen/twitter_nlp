@@ -1,2 +1,1 @@
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`pwd`/../../lib
-c++ -I. -static -L../../lib cap_classify.cpp -o cap_classify -ltinysvm
+c++ -o cap_classify cap_classify.cpp -ltinysvm
